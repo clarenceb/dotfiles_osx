@@ -1,3 +1,3 @@
-Mac OS X Dot files
+Mac OS X Dotfiles
 ------------------
-
+* Tmux
