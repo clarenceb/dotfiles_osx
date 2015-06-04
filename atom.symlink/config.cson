@@ -1,0 +1,62 @@
+"*":
+  "exception-reporting":
+    userId: "04c47123-d7ad-dd8f-f4a4-a042adb410ac"
+  "release-notes":
+    viewedVersion: "0.95.0"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "4d34e59dd449074590f53773346b1f0cee8b0d31"
+  editor:
+    invisibles:
+      {}
+    showIndentGuide: true
+  core:
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+    ]
+    themes: [
+      "atom-dark-ui"
+      "one-dark-syntax"
+    ]
+    disabledPackages: [
+      "css-color-highlight"
+    ]
+  "markdown-preview":
+    grammars: [
+      "source.gfm"
+      "source.litcoffee"
+      "text.plain"
+      "text.plain.null-grammar"
+    ]
+  "go-plus":
+    getMissingTools: false
+    goPath: "/Users/clarence/dev/golang"
+  "autoclose-html":
+    forceInline: [
+      "ul"
+      "ol"
+      "li"
+      "pre"
+      "code"
+      "h1"
+      "h2"
+      "h3"
+      "h4"
+      "h5"
+    ]
+    forceBlock: [
+      "head"
+      "body"
+      "section"
+      "aside"
+      "article"
+    ]
+  "vim-mode":
+    {}
+  linter:
+    {}
+  "ide-haskell":
+    {}
