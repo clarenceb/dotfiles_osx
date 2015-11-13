@@ -8,9 +8,9 @@
   metrics:
     userId: "4d34e59dd449074590f53773346b1f0cee8b0d31"
   editor:
-    invisibles:
-      {}
+    invisibles: {}
     showIndentGuide: true
+    fontFamily: "Hack"
   core:
     ignoredNames: [
       ".git"
@@ -18,7 +18,7 @@
       ".DS_Store"
     ]
     themes: [
-      "atom-dark-ui"
+      "seti-ui"
       "one-dark-syntax"
     ]
     disabledPackages: [
@@ -54,9 +54,14 @@
       "aside"
       "article"
     ]
-  "vim-mode":
-    {}
-  linter:
-    {}
-  "ide-haskell":
-    {}
+  "vim-mode": {}
+  linter: {}
+  "ide-haskell": {}
+  pigments: {}
+  "language-babel":
+    suppressTranspileOnSaveMessages: true
+  react: {}
+  jshint:
+    supportLintingJsx: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
