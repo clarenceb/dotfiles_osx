@@ -10,19 +10,18 @@
   editor:
     invisibles: {}
     showIndentGuide: true
-    fontFamily: "Hack"
   core:
     ignoredNames: [
       ".git"
       ".svn"
       ".DS_Store"
     ]
-    themes: [
-      "seti-ui"
-      "one-dark-syntax"
-    ]
     disabledPackages: [
       "css-color-highlight"
+    ]
+    themes: [
+      "atom-dark-ui"
+      "one-dark-syntax"
     ]
   "markdown-preview":
     grammars: [
@@ -32,7 +31,6 @@
       "text.plain.null-grammar"
     ]
   "go-plus":
-    getMissingTools: false
     goPath: "/Users/clarence/dev/golang"
   "autoclose-html":
     forceInline: [
@@ -65,3 +63,4 @@
     supportLintingJsx: true
   "tree-view":
     hideVcsIgnoredFiles: true
+  "one-dark-ui": {}

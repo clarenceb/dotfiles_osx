@@ -16,3 +16,12 @@
 #   'ctrl-P': 'core:move-up'
 #   'ctrl-p': 'core:move-down'
 #
+
+# From: http://marcio.io/2015/07/supercharging-atom-editor-for-go-development/
+'atom-text-editor:not(mini).autocomplete-active':
+  'ctrl-p': 'core:move-up'
+  'ctrl-n': 'core:move-down'
+
+'.vim-mode.command-mode:not(.mini)':
+  'ctrl-f': 'core:page-down'
+  '/': 'find-and-replace:show'
