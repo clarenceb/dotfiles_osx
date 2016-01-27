@@ -5,6 +5,7 @@ Dotfiles managed by RCM:
 
 * Tmux
 * Atom (editor)
+* Vim + plugins
 
 Getting started:
 ================
@@ -14,4 +15,13 @@ Getting started:
 * `ln -s ~/dotfiles/rcrc ~/.rcrc`
 * `rcup`
 * `lsrc`
+
+Vim plugins:
+============
+
+Add new plugins via git submodules:
+
+```sh
+git submodule add https://github.com/lukerandall/haskellmode-vim.git vim/bundle/haskellmode-vim
+```
 
