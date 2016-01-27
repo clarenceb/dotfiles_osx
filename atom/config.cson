@@ -1,38 +1,12 @@
 "*":
-  "exception-reporting":
-    userId: "04c47123-d7ad-dd8f-f4a4-a042adb410ac"
-  "release-notes":
-    viewedVersion: "0.95.0"
-  welcome:
-    showOnStartup: false
-  metrics:
-    userId: "4d34e59dd449074590f53773346b1f0cee8b0d31"
-  editor:
-    invisibles: {}
-    showIndentGuide: true
-  core:
-    ignoredNames: [
-      ".git"
-      ".svn"
-      ".DS_Store"
-    ]
-    disabledPackages: [
-      "css-color-highlight"
-    ]
-    themes: [
-      "atom-dark-ui"
-      "one-dark-syntax"
-    ]
-  "markdown-preview":
-    grammars: [
-      "source.gfm"
-      "source.litcoffee"
-      "text.plain"
-      "text.plain.null-grammar"
-    ]
-  "go-plus":
-    goPath: "/Users/clarence/dev/golang"
   "autoclose-html":
+    forceBlock: [
+      "head"
+      "body"
+      "section"
+      "aside"
+      "article"
+    ]
     forceInline: [
       "ul"
       "ol"
@@ -45,22 +19,48 @@
       "h4"
       "h5"
     ]
-    forceBlock: [
-      "head"
-      "body"
-      "section"
-      "aside"
-      "article"
+  core:
+    disabledPackages: [
+      "css-color-highlight"
     ]
-  "vim-mode": {}
-  linter: {}
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+    ]
+    themes: [
+      "atom-dark-ui"
+      "one-dark-syntax"
+    ]
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "04c47123-d7ad-dd8f-f4a4-a042adb410ac"
+  "go-plus":
+    goPath: "/Users/clarence/dev/golang"
   "ide-haskell": {}
-  pigments: {}
-  "language-babel":
-    suppressTranspileOnSaveMessages: true
-  react: {}
   jshint:
     supportLintingJsx: true
+  "language-babel":
+    suppressTranspileOnSaveMessages: true
+  linter: {}
+  "markdown-preview":
+    grammars: [
+      "source.gfm"
+      "source.litcoffee"
+      "text.plain"
+      "text.plain.null-grammar"
+    ]
+  metrics:
+    userId: "4d34e59dd449074590f53773346b1f0cee8b0d31"
+  "one-dark-ui": {}
+  pigments: {}
+  react: {}
+  "release-notes":
+    viewedVersion: "0.95.0"
   "tree-view":
     hideVcsIgnoredFiles: true
-  "one-dark-ui": {}
+  "vim-mode": {}
+  welcome:
+    showOnStartup: false
