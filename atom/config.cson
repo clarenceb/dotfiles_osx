@@ -45,6 +45,7 @@
     supportLintingJsx: true
   "language-babel":
     suppressTranspileOnSaveMessages: true
+  "language-elm": {}
   linter: {}
   "markdown-preview":
     grammars: [
@@ -60,6 +61,9 @@
   react: {}
   "release-notes":
     viewedVersion: "0.95.0"
+  "terminal-plus":
+    core: {}
+    style: {}
   "tree-view":
     hideVcsIgnoredFiles: true
   "vim-mode": {}
