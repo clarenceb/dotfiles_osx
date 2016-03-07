@@ -19,6 +19,8 @@
       "h4"
       "h5"
     ]
+  autosave:
+    enabled: true
   core:
     disabledPackages: [
       "css-color-highlight"
@@ -47,6 +49,7 @@
     suppressTranspileOnSaveMessages: true
   "language-elm": {}
   linter: {}
+  "linter-elm-make": {}
   "markdown-preview":
     grammars: [
       "source.gfm"
