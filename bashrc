@@ -94,6 +94,12 @@ code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 export NVM_DIR=~/.nvm
 . $(brew --prefix nvm)/nvm.sh
 
+#-----------------------------
+# Docker Version Manager (DVM)
+#-----------------------------
+source $HOME/.dvm/dvm.sh
+[[ -r $DVM_DIR/bash_completion ]] && . $DVM_DIR/bash_completion
+
 # JBoss
 export EAP_HOME=/Users/clarence/dev/tools/EAP-6.4.0
 
