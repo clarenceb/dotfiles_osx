@@ -1,17 +1,10 @@
-export JAVA_OPTS="${JAVA_OPTS} -Xms128m -Xmx512m"
-
-# ------------------------------------------
-# Aliases
-# ------------------------------------------
-alias clojurepl="java -cp /usr/local/Cellar/clojure/1.5.1/clojure-1.5.1.jar clojure.main"
-alias gits="git status"
-alias mac_emacs="open ~/Applications/Emacs.app"
+alias vi="vim"
 
 # Ruby related
 export ARCHFLAGS="-arch x86_64"
 
+export JAVA_OPTS="${JAVA_OPTS} -Xms128m -Xmx512m"
 export EDITOR=vim
-alias vi="vim"
 
 # View markdown from terminal
 mdview() { /usr/local/bin/markdown "$@" | lynx -stdin; }
@@ -33,11 +26,13 @@ set -o emacs
 #-------------------------------------------
 # Python Virtual Environments
 #-------------------------------------------
+
 # virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
   source /usr/local/bin/virtualenvwrapper.sh
 fi
+
 # autoenv
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
   source /usr/local/opt/autoenv/activate.sh
@@ -56,52 +51,18 @@ fi
 # User bin files
 export PATH="$PATH:~/bin"
 
-# Heroku toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-# -----------
-# Groovy
-# -----------
-export GROOVY_HOME=/usr/local/opt/groovy/libexec
-
-# -----------
 # Go Lang
-# -----------
 export GOPATH=$HOME/dev/golang
 export GOROOT=`go env GOROOT`
 export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
 alias gotags="gotags -tag-relative=true -R=true -sort=true -f='tags' -fields=+l ."
 
-# -----------
-# Haskell
-# -----------
-# Add GHC 7.10.1 to the PATH, via https://ghcformacosx.github.io/
-export GHC_DOT_APP="/opt/homebrew-cask/Caskroom/ghc/7.10.1-r0/ghc-7.10.1.app"
-if [ -d "$GHC_DOT_APP" ]; then
-    export PATH="${HOME}/.cabal/bin:${GHC_DOT_APP}/Contents/bin:${PATH}"
-fi
-
-#--------
 # VS Code
-#--------
-
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 
-#----
 # NVM
-#----
-
 export NVM_DIR=~/.nvm
 . $(brew --prefix nvm)/nvm.sh
-
-#-----------------------------
-# Docker Version Manager (DVM)
-#-----------------------------
-source $HOME/.dvm/dvm.sh
-[[ -r $DVM_DIR/bash_completion ]] && . $DVM_DIR/bash_completion
-
-# JBoss
-export EAP_HOME=/Users/clarence/dev/tools/EAP-6.4.0
 
 # direnv setup
 eval "$(direnv hook bash)"
