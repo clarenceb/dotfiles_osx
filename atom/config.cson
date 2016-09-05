@@ -37,6 +37,7 @@
   editor:
     invisibles: {}
     showIndentGuide: true
+    zoomFontWhenCtrlScrolling: true
   "exception-reporting":
     userId: "04c47123-d7ad-dd8f-f4a4-a042adb410ac"
   "file-icons": {}
