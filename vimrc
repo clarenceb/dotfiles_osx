@@ -1,8 +1,42 @@
-execute pathogen#infect()
-syntax on
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Required Vundle setup
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set nocompatible
+filetype off
+set runtimepath+=~/.vim/bundle/vundle
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Vundle plugins to install
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Bundle 'kien/ctrlp.vim'
+Bundle 'rking/ag.vim'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'scrooloose/nerdtree'
+Bundle 'godlygeek/tabular'
+Bundle 'fatih/vim-go'
+Bundle 'majutsushi/tagbar'
+Bundle 'Shougo/neocomplete.vim'
+Bundle 'mileszs/ack.vim'
+Bundle 'rbgrouleff/bclose.vim'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'godlygeek/csapprox'
+Bundle 'scrooloose/syntastic'
+Bundle 'bling/vim-airline'
+Bundle 'edkolev/tmuxline.vim'
+Bundle 'Shougo/vimproc.vim'
+Bundle 'eagletmt/neco-ghc'
+Bundle 'junegunn/goyo.vim'
+Bundle 'vim-scripts/mru.vim'
+Bundle 'amix/vim-zenroom2'
+Bundle 'tpope/vim-endwise'
+Bundle 'lambdatoast/elm.vim'
 
 " Enable filetype plugins
-filetype on           " Enable filetype detecytion
+filetype on           " Enable filetype detection
 filetype plugin on    " Enable filetype-specific indenting
 filetype indent on    " Enable filetype-specific plugins
 
@@ -145,4 +179,3 @@ let g:tagbar_type_go = {
     \ 'ctagsbin'  : '~/.vim-go/gotags',
     \ 'ctagsargs' : '-sort -silent'
     \ }
-

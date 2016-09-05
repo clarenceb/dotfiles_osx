@@ -2,3 +2,4 @@
 atom/blob-store
 bash_private
 boto
+vim/bundle/**
