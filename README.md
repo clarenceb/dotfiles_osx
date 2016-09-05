@@ -19,9 +19,17 @@ Getting started:
 Vim plugins:
 ============
 
-Add new plugins via git submodules:
+Vundle is used to manage plugins.
+
+See: https://github.com/VundleVim/Vundle.vim#quick-start
+
+Starting from scratch:
 
 ```sh
-git submodule add https://github.com/lukerandall/haskellmode-vim.git vim/bundle/haskellmode-vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
+Launch `vim` and run `:PluginInstall`
+or from command line: `vim +PluginInstall +qall`
+
+To list plugins, launch `vim` and run `:PluginList`
