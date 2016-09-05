@@ -1,0 +1,5 @@
+[user]
+	email = clarenceb@gmail.com
+	name = Clarence Bakirtzidis
+[core]
+	excludesfile = /Users/clarenceb/.gitignore_global
