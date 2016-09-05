@@ -3,10 +3,10 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set nocompatible
 filetype off
-set runtimepath+=~/.vim/bundle/vundle
-call vundle#rc()
+set runtimepath+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
+Bundle 'VundleVim/Vundle.vim'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -34,6 +34,10 @@ Bundle 'vim-scripts/mru.vim'
 Bundle 'amix/vim-zenroom2'
 Bundle 'tpope/vim-endwise'
 Bundle 'lambdatoast/elm.vim'
+
+" Conclude Vundle setup (plugins must appear above thgis line).
+call vundle#end()
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Enable filetype plugins
 filetype on           " Enable filetype detection
