@@ -12,7 +12,7 @@ Bundle 'VundleVim/Vundle.vim'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Vundle plugins to install
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Bundle 'kien/ctrlp.vim'
+Bundle 'ctrlpvim/ctrlp.vim'
 Bundle 'rking/ag.vim'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'scrooloose/nerdtree'
@@ -183,3 +183,4 @@ let g:tagbar_type_go = {
     \ 'ctagsbin'  : '~/.vim-go/gotags',
     \ 'ctagsargs' : '-sort -silent'
     \ }
+
