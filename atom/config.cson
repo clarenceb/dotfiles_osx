@@ -51,6 +51,8 @@
   "language-elm": {}
   linter: {}
   "linter-elm-make": {}
+  "linter-shellcheck":
+    enableNotice: true
   "markdown-preview":
     grammars: [
       "source.gfm"
