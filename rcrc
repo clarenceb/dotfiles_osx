@@ -1,5 +1,5 @@
 DOTFILES_DIRS="$HOME/.dotfiles"
 EXCLUDES="README.md rcrc"
-SYMLINK_DIRS="atom vim"
+SYMLINK_DIRS="atom vim hyperterm_plugins"
 COPY_ALWAYS=""
 
