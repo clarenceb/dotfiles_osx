@@ -48,6 +48,16 @@ if which ruby >/dev/null && which gem >/dev/null; then
   PATH="$(ruby -rubygems -e 'puts Gem.user_dir')/bin:$PATH"
 fi
 
+# Chruby: activate
+# - By default chruby will search for Rubies installed into /opt/rubies/ or ~/.rubies/
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+
+# Chruby: enable auto-switching of Rubies specified by .ruby-version files
+source /usr/local/opt/chruby/share/chruby/auto.sh
+
+# Chruby: specify default ruby
+chruby system
+
 # User bin files
 export PATH="$PATH:~/bin"
 
