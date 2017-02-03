@@ -59,7 +59,7 @@ source /usr/local/opt/chruby/share/chruby/auto.sh
 chruby system
 
 # User bin files
-export PATH="$PATH:~/bin"
+export PATH="$PATH:${HOME}/bin"
 
 # Go Lang
 export GOPATH=$HOME/dev/golang
