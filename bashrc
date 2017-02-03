@@ -102,3 +102,10 @@ function badge() {
     text=$1
     printf "\e]1337;SetBadgeFormat=%s\a" $(echo -n "${text}" | base64)
 }
+
+#-------------
+# Orchestrated
+#-------------
+
+source projects/handy-scripts/aws_roles.sh
+
