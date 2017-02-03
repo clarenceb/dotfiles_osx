@@ -1,4 +1,4 @@
-export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 if [ -f "$HOME/.bashrc" ]; then
     source $HOME/.bashrc
