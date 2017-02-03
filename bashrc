@@ -90,3 +90,15 @@ export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 if [ -f ~/.bash_private ]; then
   source ~/.bash_private
 fi
+
+#-------------------------------------
+# iTerm2 badge support
+#-------------------------------------
+
+# See: https://www.iterm2.com/documentation-badges.html
+
+function badge() {
+    local text
+    text=$1
+    printf "\e]1337;SetBadgeFormat=%s\a" $(echo -n "${text}" | base64)
+}
