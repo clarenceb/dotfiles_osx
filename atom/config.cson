@@ -19,6 +19,8 @@
       "h4"
       "h5"
     ]
+  "autocomplete-python":
+    useKite: false
   autosave:
     enabled: true
   core:
@@ -30,6 +32,7 @@
       ".svn"
       ".DS_Store"
     ]
+    telemetryConsent: "limited"
     themes: [
       "atom-dark-ui"
       "one-dark-syntax"
@@ -42,6 +45,9 @@
   "exception-reporting":
     userId: "04c47123-d7ad-dd8f-f4a4-a042adb410ac"
   "file-icons": {}
+  "git-plus":
+    general:
+      _analyticsUserId: "ba714866-997c-4719-b634-44d8993cb3b0"
   "go-plus":
     goPath: "/Users/clarence/dev/golang"
   "ide-haskell": {}
@@ -50,7 +56,8 @@
   "language-babel":
     suppressTranspileOnSaveMessages: true
   "language-elm": {}
-  linter: {}
+  linter:
+    errorPanelHeight: 185
   "linter-elm-make": {}
   "linter-shellcheck":
     enableNotice: true
@@ -71,8 +78,7 @@
   "terminal-plus":
     core: {}
     style: {}
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   "vim-mode": {}
   welcome:
     showOnStartup: false
