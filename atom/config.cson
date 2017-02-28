@@ -49,6 +49,7 @@
     general:
       _analyticsUserId: "ba714866-997c-4719-b634-44d8993cb3b0"
   "go-plus":
+    currentPanelHeight: "14.892086330935253vh"
     goPath: "/Users/clarence/dev/golang"
   "ide-haskell": {}
   jshint:
