@@ -1,0 +1,4 @@
+Homebrew
+========
+
+View release notes / home page of outdated tools: `brew home $(brew outdated)`
