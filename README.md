@@ -17,6 +17,12 @@ Getting started:
 * `rcup`
 * `lsrc`
 
+Git Prompt:
+===========
+
+* `brew install bash-git-prompt`
+
+
 Vim plugins:
 ============
 
