@@ -67,9 +67,6 @@ export GOROOT=`go env GOROOT`
 export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
 alias gotags="gotags -tag-relative=true -R=true -sort=true -f='tags' -fields=+l ."
 
-# VS Code
-code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
-
 # NVM
 export NVM_DIR=~/.nvm
 . $(brew --prefix nvm)/nvm.sh
@@ -102,10 +99,4 @@ function badge() {
     text=$1
     printf "\e]1337;SetBadgeFormat=%s\a" $(echo -n "${text}" | base64)
 }
-
-#-------------
-# Orchestrated
-#-------------
-
-source projects/handy-scripts/aws_roles.sh
 
