@@ -10,9 +10,8 @@ Dotfiles managed by RCM:
 Getting started:
 ================
 
-* `brew cask install macports`
-* `sudo port -v selfupdate`
-* `sudo port install rcm`
+* `brew tap thoughtbot/formulae`
+* `brew install rcm`
 * `git clone git@github.com:clarenceb/dotfiles_osx.git ~/.dotfiles`  
 * `ln -s ~/.dotfiles/rcrc ~/.rcrc`
 * `rcup`
