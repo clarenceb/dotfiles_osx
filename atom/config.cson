@@ -1,4 +1,16 @@
 "*":
+  "atom-material-ui":
+    colors:
+      abaseColor: "#7e57c2"
+      accentColor: "#b0e457"
+      predefinedColor: "Purple"
+    tabs:
+      compactTabs: true
+    treeView:
+      blendTabs: true
+      compactList: true
+    ui:
+      panelContrast: true
   "autoclose-html":
     forceBlock: [
       "head"
@@ -34,8 +46,8 @@
     ]
     telemetryConsent: "limited"
     themes: [
-      "atom-dark-ui"
-      "one-dark-syntax"
+      "atom-material-ui"
+      "atom-material-syntax"
     ]
   editor:
     invisibles: {}
