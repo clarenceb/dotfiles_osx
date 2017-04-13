@@ -57,8 +57,7 @@
   "language-babel":
     suppressTranspileOnSaveMessages: true
   "language-elm": {}
-  linter:
-    errorPanelHeight: 185
+  linter: {}
   "linter-elm-make": {}
   "linter-shellcheck":
     enableNotice: true
