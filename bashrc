@@ -109,3 +109,9 @@ export PATH="$(brew --prefix homebrew/php/php70)/bin:$PATH"
 export VLC_PATH=/Applications/VLC.app/Contents/MacOS/lib
 export VLC_PLUGIN_PATH=/Applications/VLC.app/Contents/MacOS/plugins
 
+#----------
+# Exercism
+#----------
+if [ -f ~/.config/exercism/exercism_completion.bash ]; then
+  . ~/.config/exercism/exercism_completion.bash
+fi
