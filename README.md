@@ -7,15 +7,22 @@ Dotfiles managed by RCM:
 * Atom (editor)
 * Vim + plugins
 
+Tools used:
+
+* Homebrew / Homebrew Cask / Homebrew Bundle
+
 Getting started:
 ================
 
 * `brew tap thoughtbot/formulae`
+* `brww tap Homebrew/bundle`
 * `brew install rcm`
 * `git clone git@github.com:clarenceb/dotfiles_osx.git ~/.dotfiles`  
 * `ln -s ~/.dotfiles/rcrc ~/.rcrc`
 * `rcup`
 * `lsrc`
+* `brew bundle check --file=~/.Brewfile`
+* `brew bundle install --file=~/.Brewfile`
 
 Git Prompt:
 ===========
