@@ -100,6 +100,11 @@ function badge() {
     printf "\e]1337;SetBadgeFormat=%s\a" $(echo -n "${text}" | base64)
 }
 
+#------------------------------------
+# PHP
+#------------------------------------
+export PATH="$(brew --prefix homebrew/php/php70)/bin:$PATH"
+
 # Hackathon
 export VLC_PATH=/Applications/VLC.app/Contents/MacOS/lib
 export VLC_PLUGIN_PATH=/Applications/VLC.app/Contents/MacOS/plugins
