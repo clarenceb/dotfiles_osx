@@ -100,6 +100,10 @@ function badge() {
     printf "\e]1337;SetBadgeFormat=%s\a" $(echo -n "${text}" | base64)
 }
 
+function badgecwd() {
+    badge $(basename $(pwd))
+}
+
 #------------------------------------
 # PHP
 #------------------------------------
@@ -115,3 +119,24 @@ export VLC_PLUGIN_PATH=/Applications/VLC.app/Contents/MacOS/plugins
 if [ -f ~/.config/exercism/exercism_completion.bash ]; then
   . ~/.config/exercism/exercism_completion.bash
 fi
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.bash ] && . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.bash
+
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash ] && . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash
+
+#-----------
+# PostgreSQL
+#-----------
+export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"
+
+#-----------------
+# Google Cloud SDK
+# Installed via: brew cask install google-cloud-dsk
+#-----------------
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc'
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc'
+
