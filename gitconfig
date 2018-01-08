@@ -3,6 +3,7 @@
 	name = Clarence Bakirtzidis
 [core]
 	excludesfile = /Users/clarencebakirtzidis/.gitignore_global
+	compression = 1
 [alias]
     tree = log --oneline --decorate --graph
     hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
