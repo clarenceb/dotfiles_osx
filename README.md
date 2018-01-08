@@ -15,7 +15,7 @@ Getting started:
 ================
 
 * `brew tap thoughtbot/formulae`
-* `brww tap Homebrew/bundle`
+* `brew tap Homebrew/bundle`
 * `brew install rcm`
 * `git clone git@github.com:clarenceb/dotfiles_osx.git ~/.dotfiles`  
 * `ln -s ~/.dotfiles/rcrc ~/.rcrc`
