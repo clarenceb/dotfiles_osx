@@ -1,4 +1,7 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "4db44131-5335-49d2-90fc-4ba0a7211859"
   "atom-material-ui":
     colors:
       abaseColor: "#7e57c2"
@@ -50,6 +53,7 @@
       "atom-material-syntax"
     ]
   editor:
+    fontFamily: "Hack"
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
@@ -86,6 +90,8 @@
     userId: "4d34e59dd449074590f53773346b1f0cee8b0d31"
   "one-dark-ui": {}
   pigments: {}
+  preview:
+    _analyticsUserId: "ed64521d-3d3f-4510-9b13-2006e8f4e0a6"
   react: {}
   "release-notes":
     viewedVersion: "0.95.0"

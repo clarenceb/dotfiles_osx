@@ -140,3 +140,6 @@ export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc'
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc'
 
+
+# added by travis gem
+[ -f /Users/clarencebakirtzidis/.travis/travis.sh ] && source /Users/clarencebakirtzidis/.travis/travis.sh
